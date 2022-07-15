@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import TheWelcome from "@/components/TheWelcome.vue";
 import HeaderImage from "@/components/HeaderImage.vue";
+import FeaturesSection from "../components/FeaturesSection.vue";
 </script>
 
 <template>
   <main>
     <HeaderImage />
-    <TheWelcome />
+    <FeaturesSection />
   </main>
 </template>
